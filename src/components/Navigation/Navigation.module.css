@@ -1,0 +1,23 @@
+nav {
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  padding: 15px;
+  padding-left: 40px;
+}
+
+.navigationItem {
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.navigationItemActive {
+  composes: navigationItem;
+  color: red;
+}

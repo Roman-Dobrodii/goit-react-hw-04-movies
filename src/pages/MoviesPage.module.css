@@ -1,0 +1,9 @@
+.searchForm {
+  padding-left: 25px;
+}
+
+.searchList {
+  padding-left: 25px;
+  padding-top: 10px;
+  list-style: inside;
+}
